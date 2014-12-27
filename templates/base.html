@@ -5,24 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-    <title>Andrew Liu Blog</title>
+    <title>{% block title %} Andrew Liu Blog {% endblock %}</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
     <link rel="stylesheet" href="http://picturebag.qiniudn.com/blog.css">
+    <link rel="stylesheet" href="http://picturebag.qiniudn.com/manni.css">
 </head>
 <body>
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">Andrew Liu Blog</h1>
+            <h1 class="brand-title"><a href="{% url 'home' %}">Andrew Liu Blog</a></h1>
             <h2 class="brand-tagline">雪忆 - Snow Memory</h2>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="https://github.com/Andrew-liu">Github</a>
+                        <a class="button-success pure-button" href="/">主页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://weibo.com/dinosaurliu">Weibo</a>
+                        <a class="button-success pure-button" href="/">归档</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://github.com/Andrew-liu/my_blog_tutorial">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-error pure-button" href="http://weibo.com/dinosaurliu">Weibo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-success pure-button" href="/">专题</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-success pure-button" href="/">About Me</a>
                     </li>
                 </ul>
             </nav>
@@ -46,10 +59,6 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 
 </body>

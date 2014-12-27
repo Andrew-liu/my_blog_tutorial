@@ -48,6 +48,18 @@ http://127.0.0.1:8000/
 - **未完待续**
 
 
+#Done
+
+1. Django-bootstrap-admin优化后台管理, Pure只做前端
+2. markdown和代码高亮
+
+#TO DO
+1. 多说评论
+2. 搜索
+3. 归档和按照年月分类
+4. 标签分类
+
+
 #License
 
 Copyright (c) 2014 [Andrew Liu](http://andrewliu.tk)
