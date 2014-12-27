@@ -43,7 +43,7 @@ http://127.0.0.1:8000/
 - [Django搭建简易博客教程(三)-项目与App](http://andrewliu.tk/2014/12/22/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%B8%89-%E9%A1%B9%E7%9B%AE%E4%B8%8EApp/)
 - [Django搭建简易博客教程(四)-Models](http://andrewliu.tk/2014/12/26/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%9B%9B-Models/)
 - [Django搭建简易博客教程(五)-Admin](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%BA%94-Admin/)
-- [PDjango搭建简易博客教程(六)-Views和URL](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AD-Views%E5%92%8CURL/)
+- [Django搭建简易博客教程(六)-Views和URL](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AD-Views%E5%92%8CURL/)
 - [Django搭建简易博客教程(七)-Template](http://www.jianshu.com/p/b7f41df6202d)
 - **未完待续**
 
