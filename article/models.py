@@ -8,8 +8,9 @@ class Article(models.Model) :
     date_time = models.DateTimeField(auto_now_add = True)  #博客日期
     content = models.TextField(blank = True, null = True)  #博客文章正文
 
-    def __unicode__(self) :
+    def __str__(self) :
         return self.title
 
     class Meta:
         ordering = ['-date_time']
+

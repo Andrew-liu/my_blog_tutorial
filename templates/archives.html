@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 
-{% load custom_markdown %}
 {% block content %}
 <div class="posts">
     {% for post in post_list %}
@@ -12,15 +11,7 @@
                         Time:  <a class="post-author" href="#">{{ post.date_time |date:'Y /m /d'}}</a> <a class="post-category post-category-js" href="{% url 'search_tag' tag=post.category %}">{{ post.category }}</a>
                     </p>
             </header>
-
-                <div class="post-description">
-                    <p>
-                        {{ post.content|custom_markdown }}
-                    </p>
-                </div>
-                <a class="pure-button" href="{% url 'detail' id=post.id %}">Read More >>> </a>
         </section>
     {% endfor %}
 </div><!-- /.blog-post -->
 {% endblock %}      
-            
