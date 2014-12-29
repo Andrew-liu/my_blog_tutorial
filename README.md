@@ -45,6 +45,7 @@ http://127.0.0.1:8000/
 - [Django搭建简易博客教程(五)-Admin](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%BA%94-Admin/)
 - [Django搭建简易博客教程(六)-Views和URL](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AD-Views%E5%92%8CURL/)
 - [Django搭建简易博客教程(七)-Template](http://www.jianshu.com/p/b7f41df6202d)
+- [Django搭建简易博客教程(八)-动态URL](http://andrewliu.tk/2014/12/28/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AB-%E5%8A%A8%E6%80%81URL/)
 - **未完待续**
 
 
@@ -54,14 +55,15 @@ http://127.0.0.1:8000/
 2. markdown和代码高亮
 3. 多说评论
 4. aboutme功能建设完成
+5. 标签分类
+6. 归档
 
 #TO DO
-1. ~~多说评论~~
-2. 搜索
-3. ~~归档~~和按照年月分类
-4. ~~标签分类~~
-5. 分页功能
-6. read more功能
+1. 搜索
+2. 按照年月分类
+3. 分页功能
+4. read more功能
+5. RSS功能
 
 
 #License

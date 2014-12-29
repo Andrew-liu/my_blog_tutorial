@@ -8,8 +8,8 @@ from django.utils.safestring import mark_safe
 register = template.Library()
 
 
-@register.filter(is_safe=True)
-@stringfilter
+@register.filter(is_safe=True)  #注册template filter
+@stringfilter  #希望字符串作为参数
 def custom_markdown(value):
     #extensions = ["nl2br", ]
 
