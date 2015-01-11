@@ -1,0 +1,12 @@
+Django==1.7.1
+Markdown==2.5.2
+Pygments==2.0.1
+bootstrap-admin==0.3.3
+dj-database-url==0.3.0
+dj-static==0.0.6
+django-markdown==0.8.4
+django-toolbelt==0.0.1
+gunicorn==19.1.1
+markdown2==2.3.0
+psycopg2==2.5.4
+static3==0.5.1
