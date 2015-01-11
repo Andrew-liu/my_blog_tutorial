@@ -21,6 +21,20 @@
                 <a class="pure-button" href="{% url 'detail' id=post.id %}">Read More >>> </a>
         </section>
     {% endfor %}
+
+    {% if post_list.object_list and post_list.paginator.num_pages > 1 %}
+      <div>
+      <ul class="pager">
+      {% if post_list.has_previous %}
+        <li><a href="?page={{ post_list.previous_page_number }}">上一页</a></li>
+      {% endif %}
+
+      {% if post_list.has_next %}
+        <li><a href="?page={{ post_list.next_page_number }}">下一页</a></li>
+      {% endif %}
+      </ul>
+      </div>
+    {% endif %}
 </div><!-- /.blog-post -->
 {% endblock %}      
             
