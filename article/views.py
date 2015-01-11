@@ -85,7 +85,7 @@ class RSSFeed(Feed) :
         return item.title
 
     def item_pubdate(self, item):
-        return item.add_date
+        return item.date_time
 
     def item_description(self, item):
         return item.content
