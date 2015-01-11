@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.urlresolvers import reverse
+from django.contrib.sites.models import Site
 
 # Create your models here.
 class Article(models.Model) :
@@ -9,7 +10,8 @@ class Article(models.Model) :
     content = models.TextField(blank = True, null = True)  #博客文章正文
 
     def get_absolute_url(self):
-        return reverse('detail', kwargs={'id':self.id})
+        path = reverse('detail', kwargs={'id':self.id})
+        return "http://127.0.0.1:8000%s" % path
 
     def __str__(self) :
         return self.title

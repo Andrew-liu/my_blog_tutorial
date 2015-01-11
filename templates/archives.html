@@ -2,6 +2,9 @@
 
 {% block content %}
 <div class="posts">
+    {% if error %}
+        <h2 class="post-title">没有相关文章题目</a></h2>
+    {% else %}
     {% for post in post_list %}
         <section class="post">
             <header class="post-header">
@@ -13,5 +16,6 @@
             </header>
         </section>
     {% endfor %}
+    {% endif %}
 </div><!-- /.blog-post -->
 {% endblock %}      
