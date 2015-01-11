@@ -38,16 +38,9 @@ http://127.0.0.1:8000/
 
 #More Detail
 
-- [Django搭建简易博客教程(一)-Django简介](http://andrewliu.tk/2014/12/22/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%B8%80-Django%E7%AE%80%E4%BB%8B/)
-- [Django搭建简易博客教程(二)-开发环境和Django安装](http://andrewliu.tk/2014/12/22/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%BA%8C-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%92%8CDjango%E5%AE%89%E8%A3%85/)
-- [Django搭建简易博客教程(三)-项目与App](http://andrewliu.tk/2014/12/22/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%B8%89-%E9%A1%B9%E7%9B%AE%E4%B8%8EApp/)
-- [Django搭建简易博客教程(四)-Models](http://andrewliu.tk/2014/12/26/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%9B%9B-Models/)
-- [Django搭建简易博客教程(五)-Admin](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E4%BA%94-Admin/)
-- [Django搭建简易博客教程(六)-Views和URL](http://andrewliu.tk/2014/12/27/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AD-Views%E5%92%8CURL/)
-- [Django搭建简易博客教程(七)-Template](http://www.jianshu.com/p/b7f41df6202d)
-- [Django搭建简易博客教程(八)-动态URL](http://andrewliu.tk/2014/12/28/Django%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B-%E5%85%AB-%E5%8A%A8%E6%80%81URL/)
-- **未完待续**
+整个博客开发过程, 已经整理成书, 欢迎阅读
 
+链接为[Django搭建简易博客教程](http://andrew-liu.gitbooks.io/django-blog/content/)
 
 #Done
 
@@ -60,9 +53,10 @@ http://127.0.0.1:8000/
 7. 搜索
 8. read more功能
 9. RSS功能
+10. 分页功能
 
 #TO DO
-1. 分页功能
+
 
 
 #License
