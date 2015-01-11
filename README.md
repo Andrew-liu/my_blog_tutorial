@@ -5,7 +5,7 @@
 #Requirements
 
 - Mac OS X 10.10.1  #非必要
-- Python3.4.1
+- Python3.4.2
 - Django1.7.1 
 - Bootstrap3.3.0 or Pure  #非必要
 - Sublime Text 3  #非必要
@@ -28,7 +28,9 @@ You can use the example of blog simply, just to do below:
 
 ```
 $ cd my_blog_tutorial
-$ python manage.py
+$ pip install -r requirements.txt  #安装所有依赖
+$ python manage.py migrate
+$ python manage.py runserver
 
 open the website(chrome best) and input
 http://127.0.0.1:8000/
