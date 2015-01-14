@@ -34,6 +34,12 @@ $ python manage.py runserver
 
 open the website(chrome best) and input
 http://127.0.0.1:8000/
+
+关于在windows环境下依赖项的安装注意项：
+1.windows环境下，psycopg2需要安装对应的windows版本
+    http://pythonhosted.org//psycopg2/install.html#install-from-a-package
+2.django-toolbelt依赖于psycopg和其它的几个包，注意安装顺序
+    https://pypi.python.org/pypi/django-toolbelt/0.0.1
 ```
 
 
