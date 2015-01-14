@@ -14,7 +14,7 @@ class Article(models.Model) :
         return "http://127.0.0.1:8000%s" % path
 
     def __str__(self) :
-        return self.title
+        return self.title.encode('utf-8')
 
     class Meta:
         ordering = ['-date_time']
