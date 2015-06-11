@@ -94,6 +94,13 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, './templates').replace('\\', '/'),
     )
 
+'''
+#尝试这种写法
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+    )
+'''
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
