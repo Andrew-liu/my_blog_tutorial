@@ -65,7 +65,9 @@ http://127.0.0.1:8000/
 
 #TO DO
 
+如果您觉得我的文章对您有帮助欢迎微信扫码捐助.
 
+![捐赠](http://7rfjyu.com1.z0.glb.clouddn.com/Snip20150611_11.png)
 
 #License
 

@@ -12,7 +12,8 @@ class Article(models.Model) :
     def get_absolute_url(self):
         path = reverse('detail', kwargs={'id':self.id})
         return "http://127.0.0.1:8000%s" % path
-
+    
+    #python3使用__str__
     def __str__(self) :
         return self.title.encode('utf-8')
 
