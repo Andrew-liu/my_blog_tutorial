@@ -48,8 +48,9 @@ http://127.0.0.1:8000/
 
 整个博客开发过程, 已经整理成书, 欢迎阅读
 
-Gitbook开源图书[Django搭建简易博客教程](http://andrew-liu.gitbooks.io/django-blog/content/)
-极客学院wiki[]Django搭建博客简易教程](http://wiki.jikexueyuan.com/project/django-set-up-blog/)
+- Gitbook开源图书[Django搭建简易博客教程](http://andrew-liu.gitbooks.io/django-blog/content/)
+
+- 极客学院wiki[Django搭建博客简易教程](http://wiki.jikexueyuan.com/project/django-set-up-blog/)
 
 #Done
 
