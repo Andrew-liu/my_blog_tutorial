@@ -1,11 +1,18 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render, redirect
-from django.contrib.syndication.views import Feed
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
 from django.http import HttpResponse
-from article.models import Article
-from datetime import datetime
+from django.shortcuts import render, redirect
 from django.http import Http404
+
+from django.contrib.syndication.views import Feed
+
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+from article.models import Article
+from article.models import Tag
+
+from datetime import datetime
+
 
 # Create your views here.
 def home(request):
@@ -23,9 +30,10 @@ def home(request):
 def detail(request, id):
     try:
         post = Article.objects.get(id=str(id))
+        tags = Tag.objects.all()
     except Article.DoesNotExist:
         raise Http404
-    return render(request, 'post.html', {'post' : post})
+    return render(request, 'post.html', {'post' : post, 'tags': tags})
 
 
 def archives(request) :

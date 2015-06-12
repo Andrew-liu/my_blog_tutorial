@@ -57,7 +57,8 @@ Gitbook开源图书[Django搭建简易博客教程](http://andrew-liu.gitbooks.i
 2. markdown和代码高亮
 3. 多说评论
 4. aboutme功能建设完成
-5. 标签分类
+5. 分类
+6. 标签（需要完善）
 6. 归档
 7. 搜索
 8. read more功能
