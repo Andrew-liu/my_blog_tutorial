@@ -1,3 +1,6 @@
+
+> **注意**:  本人博客已更改域名至 http://andrewliu.in , 所有博客文章都已经迁移至新域名, 抱歉.
+
 #Overview
 
 **The Tutorial ** which guild how to develop a Blog by Django, It will update with learing.
@@ -74,7 +77,7 @@ http://127.0.0.1:8000/
 
 #License
 
-Copyright (c) 2014 [Andrew Liu](http://andrewliu.tk)
+Copyright (c) 2014 [Andrew Liu](http://andrewliu.in)
 
 Licensed under the MIT License
 
