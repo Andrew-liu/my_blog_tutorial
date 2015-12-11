@@ -11,7 +11,7 @@
     {% for post in post_list %}
       <h2 class="blog-post-title"><a href="{% url 'detail' id=post.id %}">{{ post.title }}</a></h2>
         <p class="blog-post-meta">
-          发布：<a class="btn btn-xs btn-info">{{ post.publish_time | date:'Y/m/d' }}</a>&nbsp&nbsp
+          发布：<a class="btn btn-xs btn-info">{{ post.date_time | date:'Y/m/d' }}</a>&nbsp&nbsp
           目录：<a class="btn btn-xs btn-info" href="{% url 'search_tag' post.category %}">{{ post.category | title}}</a>&nbsp&nbsp
           标签：
           {% for tag in post.tag.all %}
