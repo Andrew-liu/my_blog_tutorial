@@ -30,7 +30,7 @@ def home(request):
 def detail(request, id):
     try:
         post = Article.objects.get(id=str(id))
-        tags = post.objects.all()
+        tags = post.tag.all()
     except Article.DoesNotExist:
         raise Http404
     return render(request, 'post.html', {'post' : post, 'tags': tags})
