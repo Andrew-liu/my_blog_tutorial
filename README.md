@@ -1,11 +1,11 @@
 
 > **注意**:  本人博客已更改域名至 http://andrewliu.in , 所有博客文章都已经迁移至新域名, 抱歉.
 
-#Overview
+# Overview
 
 **The Tutorial ** which guild how to develop a Blog by Django, It will update with learing.
 
-#Requirements
+# Requirements
 
 - Mac OS X 10.10.1  #非必要
 - Python3.4.2
@@ -15,7 +15,7 @@
 - virtualenv  1.11.6
 
 
-#Install 
+# Install 
 
 ```
 $ git clone https://github.com/Andrew-liu/my_blog_tutorial
@@ -25,7 +25,7 @@ or
 $ git clone git@github.com:Andrew-liu/my_blog_tutorial.git
 ```
 
-#Usage
+# Usage
 
 You can use the example of blog simply, just to do below:
 
@@ -47,7 +47,7 @@ http://127.0.0.1:8000/
 
 
 
-#More Detail
+# More Detail
 
 整个博客开发过程, 已经整理成书, 欢迎阅读
 
@@ -55,7 +55,7 @@ http://127.0.0.1:8000/
 
 - 极客学院wiki[Django搭建博客简易教程](http://wiki.jikexueyuan.com/project/django-set-up-blog/)
 
-#Done
+# Done
 
 1. Django-bootstrap-admin优化后台管理, Pure只做前端
 2. markdown和代码高亮
@@ -69,13 +69,13 @@ http://127.0.0.1:8000/
 9. RSS功能
 10. 分页功能
 
-#TO DO
+# TO DO
 
 如果您觉得我的文章对您有帮助欢迎微信扫码捐助.
 
 ![捐赠](http://7rfjyu.com1.z0.glb.clouddn.com/Snip20150611_11.png)
 
-#License
+# License
 
 Copyright (c) 2014 [Andrew Liu](http://andrewliu.in)
 
